@@ -334,7 +334,7 @@ class Bartender(MenuDelegate):
 		if not self.running:
 			self.stopInterrupts()
 			self.menuContext.select()
-		self.startInterrupts()
+			self.startInterrupts()
 
 	def updateProgressBar(self, percent, x=15, y=15):
 		height = 10
